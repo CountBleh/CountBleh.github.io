@@ -21,8 +21,36 @@ section{
 
 /*The footer has that padding so that it gives enough space between it and other content on the page*/
 footer{
-    padding-top: 50vh;
+    padding-top: 10vh;
 }
+
+.grid-container-profile-left-aligned {
+    display: inline-grid;
+    grid-template-columns: 250px 500px;
+  }
+.grid-container-profile-right-aligned {
+    display: inline-grid;
+    grid-template-columns: 500px 250px;
+  }
+
+.grid-item-profile-pic {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.grid-item-profile-text {
+    display: grid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: wrap;
+ }
+
 .form-box{
     position: relative;
     width: 400px;
