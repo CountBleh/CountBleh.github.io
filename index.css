@@ -17,6 +17,29 @@ section{
 nav{
     display: flex;
 }
+.navigationBar {
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 5px;
+    padding: 10px;
+}
+
 .form-box{
     position: relative;
     width: 400px;
