@@ -4,16 +4,53 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-section{
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100%;
+/*The body code now lets the background be completely stars, so we no longer need to cheese the footer background */
+body{
     background: url('sStars.gif');
     background-position: center;
     margin-left: auto;
     margin-right: auto;
 }
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*The footer has that padding so that it gives enough space between it and other content on the page*/
+footer{
+    padding-top: 10vh;
+}
+
+.grid-container-profile-left-aligned {
+    display: inline-grid;
+    grid-template-columns: 250px 500px;
+  }
+.grid-container-profile-right-aligned {
+    display: inline-grid;
+    grid-template-columns: 500px 250px;
+  }
+
+.grid-item-profile-pic {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.grid-item-profile-text {
+    display: grid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: wrap;
+ }
+
 .form-box{
     position: relative;
     width: 400px;
