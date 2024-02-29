@@ -23,6 +23,7 @@ section{
 /*The footer has that padding so that it gives enough space between it and other content on the page*/
 footer{
     padding-top: 10vh;
+    bottom: 0;
 }
 
 .grid-container-profile-left-aligned {
