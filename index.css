@@ -10,36 +10,10 @@ section{
     min-height: 100vh;
     width: 100%;
     background: url('sStars.gif');
-    background-position: bottom;
+    background-position: center;
     margin-left: auto;
     margin-right: auto;
 }
-nav{
-    display: flex;
-}
-.navigationBar {
-    width: 100%;
-    display: flex;
-}
-
-nav {
-    text-align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav li {
-    margin: 5px;
-    padding: 10px;
-}
-
 .form-box{
     position: relative;
     width: 400px;
@@ -122,7 +96,10 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   a:hover, a:active {
