@@ -39,8 +39,8 @@ footer{
 
 .grid-item-profile-pic {
     display: block;
-    width: auto;
-    height: auto;
+    width: 256px;
+    height: 244px;
     justify-content: center;
     color: #ffffff;
     font-size: large;
