@@ -38,11 +38,12 @@ footer{
   }
 
 .grid-item-profile-pic {
-    display: flex;
-    padding: 20px;
-    font-size: 30px;
+    display: grid;
     justify-content: center;
     color: #ffffff;
+    font-size: large;
+    text-align: center;
+
 }
 
 .grid-item-profile-text {
